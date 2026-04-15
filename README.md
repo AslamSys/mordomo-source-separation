@@ -18,8 +18,6 @@
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
 - [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
 - [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
-- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
-- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
 
 ---
 
@@ -104,8 +102,6 @@ Performance:
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
 - [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
 - [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
-- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
-- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
 
 ---
 subject: "audio.overlap_detected"
@@ -140,8 +136,6 @@ payload: {
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
 - [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
 - [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
-- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
-- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
 
 ---
 subject: "audio.separated"
@@ -183,8 +177,6 @@ payload: {
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
 - [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
 - [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
-- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
-- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
 
 ---
 # Nova transcrição → Speaker ID → speech.diarized (com overlap resolvido)
@@ -207,8 +199,6 @@ payload: {
 - [mordomo-system-watchdog](https://github.com/AslamSys/mordomo-system-watchdog)
 - [mordomo-dashboard-ui](https://github.com/AslamSys/mordomo-dashboard-ui)
 - [mordomo-openclaw-agent](https://github.com/AslamSys/mordomo-openclaw-agent)
-- [mordomo-action-dispatcher](https://github.com/AslamSys/mordomo-action-dispatcher)
-- [mordomo-skills-runner](https://github.com/AslamSys/mordomo-skills-runner)
 
 ---
 ```
