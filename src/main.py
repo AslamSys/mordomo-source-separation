@@ -1,8 +1,8 @@
 """
 Main entry point — source separation service.
 
-SUB: audio.overlap_detected
-PUB: audio.separated
+SUB: mordomo.audio.overlap_detected
+PUB: reply channel (request/reply)
 """
 import asyncio
 import base64
@@ -95,8 +95,8 @@ async def main():
     )
     logger.info(f"Connected to NATS: {config.nats_url}")
 
-    await nc.subscribe("audio.overlap_detected", cb=_handle_overlap)
-    logger.info("Subscribed to audio.overlap_detected — waiting for overlap events")
+    await nc.subscribe("mordomo.audio.overlap_detected", cb=_handle_overlap)
+    logger.info("Subscribed to mordomo.audio.overlap_detected — waiting for overlap events")
 
     try:
         await asyncio.Event().wait()
